@@ -27,7 +27,7 @@ const Login = () => {
   const t = useTranslations("Login");
 
   return (
-    <div className="box-border relative flex items-center justify-center w-screen h-full bg-center bg-cover bg-image-laptop">
+    <div className="box-border relative flex items-center justify-center w-screen h-full bg-center bg-cover">
       <div className="absolute inset-0 flex items-center justify-center text-4xl font-bold text-white bg-dark-gray"></div>
     </div>
   );

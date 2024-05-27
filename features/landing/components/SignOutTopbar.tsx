@@ -23,13 +23,10 @@ const SignOutTopbar = () => {
             <Prabeton size="60px" fill="#185b78" />
           </div>
         </Link>
-        <div className="box-border flex items-center justify-center h-10 gap-10 leading-6 text-white text-4 w-112">
+        <div className="box-border flex items-center justify-center h-10 gap-10 leading-6 text-white text-4 w-150">
           <div className="font-medium">
-            <Link
-              href="https://www.devstock.pl"
-              target="_blank"
-              rel="noopener noreferrer">
-              ####
+            <Link href="###" rel="noopener noreferrer">
+              Przemysław Woźniak
             </Link>
           </div>
           <div className="z-10 w-px leading-6 bg-white h-7 text-4"></div>

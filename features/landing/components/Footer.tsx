@@ -11,11 +11,8 @@ const Footer = () => {
       <div className="box-border flex items-center justify-between w-full h-20 gap-8 pl-10 pr-10 bg-sky-950">
         <div className="box-border flex items-center justify-between text-base text-white w-120 h-7">
           <div className="font-medium">
-            <Link
-              href="https://www.devstock.pl"
-              target="_blank"
-              rel="noopener noreferrer">
-              Devstock.pl
+            <Link href="###" rel="noopener noreferrer">
+              # # # # #
             </Link>
           </div>
           <div className="w-px text-base bg-white h-7"></div>
