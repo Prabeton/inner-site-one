@@ -1,23 +1,20 @@
 "use client";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useTranslations } from "next-intl";
-import clsx from "clsx";
+import { clsx } from "clsx";
 
-import { DevstockAcademy } from "@/icon/";
 import { Prabeton } from "@/icon/";
 
-const SignOutTopbar = () => {
+const Navbar = () => {
   const pathname = usePathname();
-  const registerPathRegex = /^(\/(pl|en))?\/register$/;
-  const isActiveRegister = registerPathRegex.test(pathname);
-  const loginPathRegex = /^(\/(pl|en))?\/login$/;
-  const isActiveLogin = loginPathRegex.test(pathname);
-  const t = useTranslations("SignOutTopbar");
+  const projectsPathRegex = /^(\/(pl|en))?\/projects$/;
+  const isActiveProjects = projectsPathRegex.test(pathname);
+  const currentlyPathRegex = /^(\/(pl|en))?\/currently$/;
+  const isActiveCurrently = currentlyPathRegex.test(pathname);
 
   return (
     <div className="box-border relative flex justify-center w-screen h-20 p-0 m-0">
-      <div className="box-border flex items-center justify-between w-full h-20 pr-10 bg-gray">
+      <div className="box-border flex items-center justify-between w-full h-20 pr-4 bg-gray">
         <Link href="/landing" passHref>
           <div className="box-border flex items-center justify-center h-20 w-30">
             <Prabeton size="60px" fill="#185b78" />
@@ -30,22 +27,22 @@ const SignOutTopbar = () => {
             </Link>
           </div>
           <div className="z-10 w-px leading-6 bg-white h-7 text-4"></div>
-          <Link href="/login" passHref>
+          <Link href="/currently" passHref>
             <div
               className={clsx("font-medium text-base w-21.75", {
-                "text-yellow": isActiveLogin,
+                "text-yellow": isActiveCurrently,
               })}>
               CURRENTLY
             </div>
           </Link>
-          <Link href="/register" passHref>
+          <Link href="/projects" passHref>
             <div
               className={clsx(
                 "flex justify-center items-center font-medium text-base rounded-lg w-37.5 h-10",
-                { "text-yellow": isActiveRegister },
-                { "text-white": !isActiveRegister },
-                { "bg-dark-gray": isActiveRegister },
-                { "bg-sky-950": !isActiveRegister }
+                { "text-yellow": isActiveProjects },
+                { "text-white": !isActiveProjects },
+                { "bg-dark-gray": isActiveProjects },
+                { "bg-sky-950": !isActiveProjects }
               )}>
               PROJECTS
             </div>
@@ -55,4 +52,4 @@ const SignOutTopbar = () => {
     </div>
   );
 };
-export default SignOutTopbar;
+export default Navbar;

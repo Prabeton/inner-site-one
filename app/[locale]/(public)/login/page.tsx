@@ -1,7 +1,7 @@
-import Currently from "@/features/login/Currently";
+import Login from "@/features/login/Login";
 
 const LoginPage = () => {
-  return <Currently />;
+  return <Login />;
 };
 
 export default LoginPage;

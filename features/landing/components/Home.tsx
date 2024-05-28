@@ -3,7 +3,7 @@ import { useTranslations } from "next-intl";
 import { ArrowRight, DevstockLogotyp, PrabetonCode } from "@/icon/";
 import { Button } from "@/reusecomponents/";
 
-const Heroimage = () => {
+const Home = () => {
   const t = useTranslations("Heroimage");
 
   return (
@@ -17,6 +17,6 @@ const Heroimage = () => {
     </div>
   );
 };
-export default Heroimage;
+export default Home;
 
-// <PrabetonCode size="60px" fill="red" />
+

@@ -22,7 +22,7 @@ const Button: React.FC<ButtonProps> = ({
       type={type}
       className={clsx(
         "m-0 text-base font-normal rounded-lg cursor-pointer",
-        { "bg-blue-600": variant === "primary" },
+        { "bg-blue-800": variant === "primary" },
         { "bg-red-500": variant === "secondary" },
         { "bg-transparent": variant === "tertiary" },
         className

@@ -1,7 +1,7 @@
-import Projects from "@/features/register/Projects";
+import Register from "@/features/register/Register";
 
 const RegisterPage = () => {
-  return <Projects />;
+  return <Register />;
 };
 
 export default RegisterPage;

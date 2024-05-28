@@ -2,7 +2,7 @@ import { ReactNode } from "react";
 import { NextIntlClientProvider } from "next-intl";
 
 import "@/app/[locale]/(public)/globals.css";
-import { SocialMediaBar, SignOutTopbar, Footer } from "@/features/landing/";
+import { SocialMediaBar, Navbar, Footer } from "@/features/landing/";
 
 export const metadata = {
   title: "inner-site-one",
@@ -26,7 +26,7 @@ const RootLayout: React.FC<RootLayoutProps> = ({
       <html lang={locale}>
         <body className="box-border flex flex-col items-center overflow-x-hidden max-w-screen">
           <SocialMediaBar />
-          <SignOutTopbar />
+          <Navbar />
           <div className="box-border flex flex-col flex-grow">{children}</div>
           <Footer />
         </body>
