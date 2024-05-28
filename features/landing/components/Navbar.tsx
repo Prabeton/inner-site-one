@@ -11,6 +11,8 @@ const Navbar = () => {
   const isActiveProjects = projectsPathRegex.test(pathname);
   const currentlyPathRegex = /^(\/(pl|en))?\/currently$/;
   const isActiveCurrently = currentlyPathRegex.test(pathname);
+  const przemekPathRegex = /^(\/(pl|en))?\/przemek$/;
+  const isActivePrzemek = przemekPathRegex.test(pathname);
 
   return (
     <div className="box-border relative flex justify-center w-screen h-20 p-0 m-0">
@@ -21,8 +23,13 @@ const Navbar = () => {
           </div>
         </Link>
         <div className="box-border flex items-center justify-center h-10 gap-10 leading-6 text-white text-4 w-150">
-          <div className="font-medium">
-            <Link href="###" rel="noopener noreferrer">
+          <div
+            className={clsx(
+              "flex justify-center items-center font-medium text-base rounded-lg w-100 h-10",
+              { "text-yellow": isActivePrzemek },
+              { "text-white": !isActivePrzemek }
+            )}>
+            <Link href="./przemek" rel="noopener noreferrer">
               Przemysław Woźniak
             </Link>
           </div>

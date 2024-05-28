@@ -1,5 +1,5 @@
 import ContentBottom from "./components/ContentBottom";
-import ContentTop from "./components/ContentTop";
+import LiteYouTube from "./components/LiteYouTube";
 import Footer from "./components/Footer";
 import Home from "./components/Home";
 import Navbar from "./components/Navbar";
@@ -10,7 +10,7 @@ import Projects from "./components/Projects";
 
 export {
   ContentBottom,
-  ContentTop,
+  LiteYouTube,
   Footer,
   Home,
   Navbar,

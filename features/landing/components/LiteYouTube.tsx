@@ -4,7 +4,7 @@ import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
 import { useTranslations } from "next-intl";
 import clsx from "clsx";
 
-const ContentTop = () => {
+const LiteYouTube = () => {
   const t = useTranslations("ContentTop");
   const platformDescription1 = t("platformDescription1");
   const platformDescription2 = t("platformDescription2");
@@ -50,4 +50,4 @@ const ContentTop = () => {
     </div>
   );
 };
-export default ContentTop;
+export default LiteYouTube;

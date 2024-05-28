@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="w-px text-base bg-white h-7"></div>
           <Link href="###" passHref>
             <div className="flex items-center justify-center h-10 text-base font-medium text-white">
-              privacyPolicy
+              my Pack
             </div>
           </Link>
           <div className="w-px text-base bg-white h-7"></div>

@@ -1,4 +1,4 @@
-import { Home, ContentTop, ContentBottom } from "../";
+import { Home, LiteYouTube, ContentBottom } from "../";
 
 const Landing = () => {
   return (
