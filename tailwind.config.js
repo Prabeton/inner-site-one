@@ -19,9 +19,13 @@ module.exports = {
         "image-laptop": "url('/Laptop-bg.webp')",
         "image-terminal": "url('/terminal.png')",
         "image-wozniak": "url('/wozniak.png')",
+        "image-family": "url('/family.png')",
       },
       maxWidth: {
         1366: "85.375rem", // *** 1366px
+      },
+      backgroundSize: {
+        "auto-height": "auto 100%",
       },
       height: {
         10.5: "2.625rem", // *** 42px ***
@@ -35,8 +39,10 @@ module.exports = {
         89.5: "22.375rem", // *** 358px ***
         94: "23.5rem", // *** 376px ***
         99: "24.75rem", // *** 396px ***
+        112: "28rem", // *** 448px ***
         120: "30rem", // *** 480px ***
         141: "35.25rem", // *** 564px ***
+        150: "37.5rem", // *** 600px ***
         163.5: "40.875rem", // *** 654px ***
       },
       width: {
@@ -47,6 +53,8 @@ module.exports = {
         43.75: "10.938rem", // *** 175px ***
         50: "12.5rem", // *** 200px ***
         75: "18.75rem", // *** 300px ***
+        89.5: "22.375rem", // *** 358px ***
+        99: "24.75rem", // *** 396px ***
         112: "28rem", // *** 448px ***
         113: "28.25rem", // *** 452px ***
         120: "30rem", // *** 480px ***
@@ -92,6 +100,15 @@ module.exports = {
       },
       spacing: {
         10.25: "2.563rem", // *** 41px ***
+      },
+      borderRadius: {
+        none: "0",
+        sm: "0.125rem",
+        md: "0.375rem",
+        lg: "0.5rem",
+        full: "9999px",
+        large: "12px",
+        extra: "90px",
       },
     },
   },

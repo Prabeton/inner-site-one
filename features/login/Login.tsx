@@ -23,8 +23,8 @@ const Login = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => console.log(data);
 
   return (
-    <div className="box-border relative flex items-center justify-center w-screen h-full bg-dark-gray">
-      <div className="relative flex flex-col items-center justify-center gap-8 rounded-lg w-112 h-141 bg-gray">
+    <div className="box-border relative flex items-center justify-center w-screen h-full bg-[#185b78]">
+      <div className="relative flex flex-col items-center justify-center gap-8 border-4 border-green-300 rounded-extra w-112 h-141 bg-gray">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col justify-center h-full gap-6 p-4 space-y-1">
