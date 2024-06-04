@@ -1,5 +1,10 @@
 /* eslint-disable-next-line */
-function Prabeton({ size, fill }) {
+type PrabetonProps = {
+  size: string,
+  fill: string,
+};
+
+function Prabeton({ size, fill }: PrabetonProps) {
   return (
     <svg
       version="1.1"

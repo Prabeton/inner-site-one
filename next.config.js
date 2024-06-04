@@ -1,7 +1,18 @@
+const path = require("path");
 const createNextIntlPlugin = require("next-intl/plugin");
 const withNextIntl = createNextIntlPlugin();
 
-module.exports = {
+module.exports = withNextIntl({
+  experimental: {
+    appDir: true,
+  },
+  webpack: (config) => {
+    config.resolve.alias = {
+      ...config.resolve.alias,
+      "@": path.resolve(__dirname, "app"),
+    };
+    return config;
+  },
   async rewrites() {
     return [
       {
@@ -10,9 +21,4 @@ module.exports = {
       },
     ];
   },
-  ...withNextIntl({
-    experimental: {
-      appDir: true,
-    },
-  }),
-};
+});
