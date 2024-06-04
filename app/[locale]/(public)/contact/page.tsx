@@ -1,5 +1,5 @@
 import React from "react";
-import Contact from "@/features/mycard/Contact/";
+import Contact from "@/features/mycard/Contact";
 
 const ContactPage = () => {
   return <Contact />;
