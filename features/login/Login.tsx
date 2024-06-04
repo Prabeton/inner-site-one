@@ -24,7 +24,7 @@ const Login = () => {
 
   return (
     <div className="box-border relative flex items-center justify-center w-screen h-full bg-[#185b78]">
-      <div className="relative flex flex-col items-center justify-center gap-8 border-4 border-green-300 rounded-extra w-112 h-141 bg-gray">
+      <div className="relative flex flex-col items-center justify-center gap-8 border-4 border-green-300 rounded-2xl w-[500px] h-[400px] bg-gray">
         <form
           onSubmit={handleSubmit(onSubmit)}
           className="flex flex-col justify-center h-full gap-6 p-4 space-y-1">
