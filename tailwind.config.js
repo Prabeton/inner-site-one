@@ -20,6 +20,7 @@ module.exports = {
         "image-terminal": "url('/terminal.png')",
         "image-wozniak": "url('/wozniak.png')",
         "image-family": "url('/family.png')",
+        "image-aidevs": "url('/certaidevs.png')",
       },
       maxWidth: {
         1366: "85.375rem", // *** 1366px

@@ -5,7 +5,13 @@ import Link from "next/link";
 
 const Currently = () => {
   return (
-    <div className="box-border relative flex items-center justify-center w-screen h-full text-3xl text-yellow bg-dark-gray">
+    <div className="box-border relative flex items-center justify-center w-screen h-full gap-20 text-3xl text-yellow bg-dark-gray">
+      <Link
+        href="https://credsverse.com/credentials/f37ba10f-4d3a-4cb3-ab57-dccecb13f017"
+        target="_blank"
+        rel="noopener noreferrer">
+        <div className="box-border flex items-center justify-center border-yellow border-4 rounded-lg  shadow-xl md:w-120 lg:w-120 xl:w-160.75 xl:h-94 bg-image-aidevs bg-center bg-cover p-5"></div>
+      </Link>
       <div className="box-border  bg-gray-900 flex items-center justify-center border-yellow border-4 rounded-lg bg-center bg-cover shadow-xl md:w-120 lg:w-120 xl:w-160.75 xl:h-94">
         <div className="flex flex-col w-full h-9/10 justify-stretch ">
           <LiteYouTubeEmbed
