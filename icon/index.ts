@@ -22,6 +22,7 @@ import RightArrowDouble from "./components/RightArrowDouble";
 import Ranking from "./components/Ranking";
 import Settings from "./components/Settings";
 import Task from "./components/Task";
+import Notion from "./components/Notion";
 
 export {
   Task,
@@ -48,4 +49,5 @@ export {
   HeartYellow,
   Prabeton,
   ExampleSvg,
+  Notion,
 };

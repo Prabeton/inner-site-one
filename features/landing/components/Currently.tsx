@@ -10,9 +10,9 @@ const Currently = () => {
         href="https://credsverse.com/credentials/f37ba10f-4d3a-4cb3-ab57-dccecb13f017"
         target="_blank"
         rel="noopener noreferrer">
-        <div className="box-border flex items-center justify-center border-yellow border-4 rounded-lg  shadow-xl md:w-120 lg:w-120 xl:w-160.75 xl:h-94 bg-image-aidevs bg-center bg-cover p-5"></div>
+        <div className="box-border flex items-center justify-center border-yellow border-4 rounded-lg  shadow-xl  md:w-100 lg:w-100 xl:w-120 xl:h-69.5 bg-image-aidevs bg-center bg-cover p-5"></div>
       </Link>
-      <div className="box-border  bg-gray-900 flex items-center justify-center border-yellow border-4 rounded-lg bg-center bg-cover shadow-xl md:w-120 lg:w-120 xl:w-160.75 xl:h-94">
+      <div className="box-border flex items-center justify-center bg-gray-900 bg-center bg-cover border-4 rounded-lg shadow-xl border-yellow md:w-100 lg:w-100 xl:w-120 xl:h-69.5">
         <div className="flex flex-col w-full h-9/10 justify-stretch ">
           <LiteYouTubeEmbed
             id="J0EQpJNgDS8"
