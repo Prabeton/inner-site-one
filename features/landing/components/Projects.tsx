@@ -11,6 +11,9 @@ import {
   Calendar,
   Admin,
   Notion,
+  PrabetonCode,
+  PrabetonMail,
+  PrabetonHead,
 } from "@/icon/";
 
 const Projects = () => {
@@ -27,10 +30,12 @@ const Projects = () => {
         </Link>
       </div>
       <div className="box-border relative flex items-center justify-center w-screen h-40 gap-8 text-3xl text-yellow ">
+        <Admin size="40px" stroke="gray" />
         <Task size="40px" stroke="yellow" />
         <Settings size="40px" stroke="green" />
         <Ranking size="40px" stroke="red" />
         <RightArrowDouble size="40px" stroke="pink" />
+        <PrabetonCode size="180px" fill="white" />
         <LeftArrowDouble size="40px" stroke="orange" />
         <HomeEk size="40px" stroke="blue" />
         <Education size="40px" stroke="brown" />

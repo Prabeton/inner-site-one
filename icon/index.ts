@@ -12,6 +12,8 @@ import LinkedIn from "./components/LinkedIn";
 import HeartYellow from "./components/HeartYellow";
 import Prabeton from "./components/Prabeton";
 import PrabetonCode from "./components/PrabetonCode";
+import PrabetonHead from "./components/PrabetonHead";
+import PrabetonMail from "./components/PrabetonMail";
 import ExampleSvg from "./components/ExampleSvg";
 import Admin from "./components/Admin";
 import Calendar from "./components/Calendar";
@@ -35,6 +37,8 @@ export {
   Calendar,
   Admin,
   PrabetonCode,
+  PrabetonHead,
+  PrabetonMail,
   DevstockLogotyp,
   ArrowRight,
   ChevronRight,

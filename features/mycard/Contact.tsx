@@ -2,7 +2,7 @@
 
 import React from "react";
 
-import { Prabeton } from "@/icon/";
+import { PrabetonHead } from "@/icon/";
 
 const Contact = () => {
   return (
@@ -13,7 +13,7 @@ const Contact = () => {
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
         }}>
-        <Prabeton size="200px" fill="#1B2124" />
+        <PrabetonHead size="200px" fill="#1B2124" />
         <p className="text-base font-light">przemyslaw@wozniak.website</p>
         <p className="text-base font-light">tel. 517-560-254</p>
         <p className="text-base font-light">www.wozniak.website</p>
