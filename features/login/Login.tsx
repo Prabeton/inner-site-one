@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useForm, SubmitHandler } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import loginSchema from "./loginSchema";
@@ -23,7 +24,7 @@ const Login = () => {
   const onSubmit: SubmitHandler<FormValues> = (data) => console.log(data);
 
   return (
-    <div className="box-border relative flex items-center justify-center w-screen h-full bg-[#185b78]">
+    <div className="box-border relative flex flex-col gap-8 items-center justify-center w-screen h-full bg-[#185b78]">
       <div className="relative flex flex-col items-center justify-center gap-8 border-4 border-green-300 rounded-2xl w-[500px] h-[400px] bg-gray">
         <form
           onSubmit={handleSubmit(onSubmit)}
@@ -63,6 +64,14 @@ const Login = () => {
             </Button>
           </div>
         </form>
+      </div>
+      <div className="relative flex flex-col items-center justify-center gap-8 border-4 border-green-300 rounded-2xl w-[500px] h-[60px] bg-gray">
+        <Link
+          href="http://prabeton.website"
+          target="_blank"
+          rel="noopener noreferrer">
+          prabeton.website
+        </Link>
       </div>
     </div>
   );
