@@ -22,6 +22,7 @@ module.exports = {
         "image-family": "url('/family.png')",
         "image-aidevs": "url('/certaidevs.png')",
         "image-widok4": "url('/widok4.webp')",
+        "image-cv": "url('/png/cv-pw-red1.png')",
       },
       maxWidth: {
         1366: "85.375rem", // *** 1366px
