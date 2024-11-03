@@ -15,8 +15,8 @@ const Currently = () => {
       <div className="box-border flex items-center justify-center bg-gray-900 bg-center bg-cover border-4 rounded-lg shadow-xl border-yellow md:w-100 lg:w-100 xl:w-120 xl:h-69.5">
         <div className="flex flex-col w-full h-9/10 justify-stretch ">
           <LiteYouTubeEmbed
-            id="J0EQpJNgDS8"
-            title="Tytuł filmu z Devstock"
+            id="hQhSKfzhVnY"
+            title="Agenty AI - czym są? Tak w pigułce?"
             poster="hqdefault"
             playerClass="lty-playbtn"
             wrapperClass="yt-lite"
