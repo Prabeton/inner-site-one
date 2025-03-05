@@ -40,7 +40,7 @@ const Navbar = () => {
               className={clsx("font-medium text-base w-21.75", {
                 "text-yellow": isActiveCurrently,
               })}>
-              CURRENTLY
+              CERTIFICATES
             </div>
           </Link>
           <Link href="/projects" passHref>
