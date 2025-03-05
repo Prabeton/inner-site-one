@@ -21,6 +21,7 @@ module.exports = {
         "image-wozniak": "url('/wozniak.png')",
         "image-family": "url('/family.png')",
         "image-aidevs": "url('/certaidevs.png')",
+        "image-aidevs3": "url('/certaidevs3.png')",
         "image-widok4": "url('/widok4.webp')",
         "image-cv": "url('/png/cv-pw-red1.png')",
       },

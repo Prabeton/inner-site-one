@@ -16,7 +16,7 @@ const Currently = () => {
         href="https://credsverse.com/credentials/b67b828b-04e4-4cea-86f9-725e8dd7cfde"
         target="_blank"
         rel="noopener noreferrer">
-        <div className="box-border flex items-center justify-center border-yellow border-4 rounded-lg  shadow-xl  md:w-100 lg:w-100 xl:w-120 xl:h-69.5 bg-image-aidevs bg-center bg-cover p-5"></div>
+        <div className="box-border flex items-center justify-center border-yellow border-4 rounded-lg  shadow-xl  md:w-100 lg:w-100 xl:w-120 xl:h-69.5 bg-image-aidevs3 bg-center bg-cover p-5"></div>
       </Link>
       {/* <div className="box-border flex items-center justify-center bg-gray-900 bg-center bg-cover border-4 rounded-lg shadow-xl border-yellow md:w-100 lg:w-100 xl:w-120 xl:h-69.5">
         <div className="flex flex-col w-full h-9/10 justify-stretch ">
