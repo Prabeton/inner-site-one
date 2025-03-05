@@ -1,6 +1,7 @@
 "use client";
 
 import React from "react";
+import Link from "next/link";
 
 import { PrabetonHead } from "@/icon/";
 
@@ -14,9 +15,9 @@ const Contact = () => {
           backgroundRepeat: "no-repeat",
         }}>
         <PrabetonHead size="200px" fill="#1B2124" />
-        <p className="text-base font-light">przemyslaw@wozniak.website</p>
+        <p className="text-base font-light">wozniak.przemyslaw@icloud.com</p>
         <p className="text-base font-light">tel. 517-560-254</p>
-        <p className="text-base font-light">www.wozniak.website</p>
+        <p className="text-base font-light"><Link href="https://wozniak.website">wozniak.website</Link></p>
       </div>
     </div>
   );
