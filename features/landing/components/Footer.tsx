@@ -53,7 +53,7 @@ const Footer = () => {
           </Link>
         </div>
         <div className="flex h-3 gap-2 text-base font-medium text-white ">
-          <HeartYellow /> Prabeton &copy; 2024
+          <HeartYellow /> Prabeton &copy; {new Date().getFullYear()}
         </div>
       </div>
     </div>
