@@ -12,6 +12,17 @@
   --custom-image-path: url("/Laptop-bg.webp");
 }
 
+/* @layer utilities {
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+} */
+
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
@@ -29,12 +40,9 @@ body {
   margin: 0 auto;
   padding: 0;
   color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
+  background: linear-gradient(to bottom,
       transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+      rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
   font-family: "Lexend Deca", sans-serif;
   height: 100vh;
   display: flex;
@@ -48,6 +56,7 @@ a {
 button {
   cursor: pointer;
 }
+
 .bg-auto-height {
   background-size: auto 100%;
   background-position: center;

@@ -18,8 +18,8 @@ const Footer = () => {
   return (
     <div className="box-border flex justify-center w-screen h-20 p-0 m-0">
       <div className="box-border flex items-center justify-between w-full h-20 gap-8 pl-10 pr-10 bg-sky-950">
-        <div className="box-border flex items-center justify-between text-base text-white w-120 h-7">
-          <div
+        <div className="box-border flex items-center justify-start text-base text-white w-120 h-7">
+          {/* <div
             className={clsx(
               "font-medium",
               { "text-green-300": isActiveLogin },
@@ -28,8 +28,8 @@ const Footer = () => {
             <Link href="./login" rel="noopener noreferrer">
               Private Login
             </Link>
-          </div>
-          <div className="w-px text-base bg-white h-7"></div>
+          </div> */}
+          {/* <div className="w-px text-base bg-white h-7"></div>
           <Link href="./mypack" passHref>
             <div
               className={clsx(
@@ -39,8 +39,8 @@ const Footer = () => {
               )}>
               my Pack
             </div>
-          </Link>
-          <div className="w-px text-base bg-white h-7"></div>
+          </Link> 
+          <div className="w-px text-base bg-white h-7"></div> */}
           <Link href="./contact" passHref>
             <div
               className={clsx(

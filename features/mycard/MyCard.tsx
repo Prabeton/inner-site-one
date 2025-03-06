@@ -16,9 +16,11 @@ const MyCard = () => {
             src="/pdf/cv-pw-8.pdf"
             width="100%"
             height="100%"
+            className="no-scrollbar"
             style={{
               border: "none",
-            }}></iframe>
+            }}
+          ></iframe>
         </div>
       </div>
     </div>
