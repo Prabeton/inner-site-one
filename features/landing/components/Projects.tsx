@@ -43,7 +43,7 @@ const Projects = () => {
         <Admin size="40px" stroke="gray" /> */}
       </div>
       <div className="flex items-center justify-center text-base w-175">
-        Ze względu na awarię mojegoserwera (to był bardzo stary sprzęt) i
+        Ze względu na awarię mojego serwera (to był bardzo stary sprzęt) i
         wynikające z tego modernizacje sprzętowe, aktualnie cała ta strona jest
         uruchomiona na serwerach Vercel i przebudowywana. Z tego względu ograniczam się tylkodo
         prezentacji kilku poglądowych widoków na Notion
