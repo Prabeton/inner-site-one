@@ -52,7 +52,7 @@ const Footer = () => {
             </div>
           </Link>
         </div>
-        <div className="flex h-3 gap-2 text-base font-medium text-white ">
+        <div className="flex h-3 gap-2 text-base font-medium text-white items-center">
           <HeartYellow /> Prabeton &copy; {new Date().getFullYear()}
         </div>
       </div>

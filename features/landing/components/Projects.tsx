@@ -1,19 +1,8 @@
 "use client";
 import Link from "next/link";
 import {
-  Task,
-  Settings,
-  Ranking,
-  RightArrowDouble,
-  LeftArrowDouble,
-  HomeEk,
-  Education,
-  Calendar,
-  Admin,
   Notion,
-  PrabetonCode,
-  PrabetonMail,
-  PrabetonHead,
+  PrabetonCode
 } from "@/icon/";
 
 const Projects = () => {
@@ -30,17 +19,7 @@ const Projects = () => {
         </Link>
       </div>
       <div className="box-border relative flex items-center justify-center w-screen h-40 gap-8 text-3xl text-yellow ">
-        {/* <Admin size="40px" stroke="gray" />
-        <Task size="40px" stroke="yellow" />
-        <Settings size="40px" stroke="green" />
-        <Ranking size="40px" stroke="red" />
-        <RightArrowDouble size="40px" stroke="pink" /> */}
         <PrabetonCode size="180px" fill="white" />
-        {/* <LeftArrowDouble size="40px" stroke="orange" />
-        <HomeEk size="40px" stroke="blue" />
-        <Education size="40px" stroke="brown" />
-        <Calendar size="40px" stroke="purple" />
-        <Admin size="40px" stroke="gray" /> */}
       </div>
       <div className="flex items-center justify-center text-base w-175">
         Ze względu na awarię mojego serwera (to był bardzo stary sprzęt) i

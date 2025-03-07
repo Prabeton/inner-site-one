@@ -17,7 +17,7 @@ const Contact = () => {
         <PrabetonHead size="200px" fill="#1B2124" />
         <p className="text-base font-light">wozniak.przemyslaw@icloud.com</p>
         <p className="text-base font-light">tel. 517-560-254</p>
-        <p className="text-base font-light"><Link href="https://wozniak.website">wozniak.website</Link></p>
+        <p className="text-base font-light"><Link href="https://wozniak.website">https://wozniak.website/</Link></p>
       </div>
     </div>
   );

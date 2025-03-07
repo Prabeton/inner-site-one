@@ -13,7 +13,7 @@ const MyCard = () => {
       <div className="h-[90%] p-2 w-112 rounded-md flex items-center justify-center">
         <div className="flex rounded-md h-[90%] w-[90%]">
           <iframe
-            src="/pdf/cv-pw-8.pdf"
+            src="/pdf/CV-PrzemyslawWozniak7.pdf"
             width="100%"
             height="100%"
             className="no-scrollbar"

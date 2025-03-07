@@ -17,13 +17,13 @@ const Navbar = () => {
 
   return (
     <div className="box-border relative flex justify-center w-screen h-20 p-0 m-0">
-      <div className="box-border flex items-center justify-between w-full h-20 pr-4 bg-gray">
+      <div className="box-border flex items-center justify-between w-full h-20 pr-6 bg-gray">
         <Link href="/landing" passHref>
           <div className="box-border flex items-center justify-center h-20 w-30">
             <Prabeton size="60px" fill="#185b78" />
           </div>
         </Link>
-        <div className="box-border flex items-center justify-center h-10 gap-10 leading-6 text-white text-4 w-150">
+        <div className="box-border flex items-center justify-center h-10 gap-6 leading-6 text-white text-4 w-170">
           <div
             className={clsx(
               "flex justify-center items-center font-medium text-base rounded-lg w-100 h-10",
@@ -37,12 +37,13 @@ const Navbar = () => {
           <div className="z-10 w-px leading-6 bg-white h-7 text-4"></div>
           <Link href="/currently" passHref>
             <div
-              className={clsx("font-medium text-base w-21.75", {
+              className={clsx("font-medium text-base", {
                 "text-yellow": isActiveCurrently,
               })}>
               CERTIFICATES
             </div>
           </Link>
+          <div className="z-10 w-px leading-6 bg-white h-7 text-4"></div>
           <Link href="/projects" passHref>
             <div
               className={clsx(
