@@ -14,8 +14,8 @@ const MyCard = () => {
         <div className="flex rounded-md h-[90%] w-[90%]">
           <iframe
             src="/pdf/CV-PrzemyslawWozniak2.pdf"
-            width="100%"
-            height="100%"
+            width="105%"
+            height="105%"
             className="no-scrollbar"
             style={{
               border: "none",
